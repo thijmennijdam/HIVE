@@ -14,7 +14,18 @@
 
 **HIVE** is an interactive dashboard for visualizing and exploring hierarchical and hyperbolic data representations. The dashboard is the core contribution of this repo. We include the HyCoCLIP model plus GRIT and ImageNet subsets as example use cases.
 
-🎬 **Demo:** [MP4 video](https://raw.githubusercontent.com/thijmennijdam/HIVE/main/HIVE_demo.mp4)
+🎬 **Demo (will download .mp4):** [MP4 video](https://raw.githubusercontent.com/thijmennijdam/HIVE/main/HIVE_demo.mp4)
+
+---
+
+## Features
+
+* Interactive visualization of hierarchical & hyperbolic embeddings
+* Built-in support for GRIT and ImageNet
+* Compare projection methods (HoroPCA, CO-SNE)
+* Dual-view and single-view modes
+* Tree, neighbor, and interpolation exploration modes
+* Modular codebase for plugging in new models/datasets
 
 ---
 
@@ -78,17 +89,6 @@ horopca_embeddings.pkl
 ```
 
 You can now load your dataset and projections in the dashboard. Forking and adapting the code for custom data types is straightforward (and coding agents can help automate this).
-
----
-
-## Features
-
-* Interactive visualization of hierarchical & hyperbolic embeddings
-* Built-in support for GRIT and ImageNet
-* Compare projection methods (HoroPCA, CO-SNE)
-* Dual-view and single-view modes
-* Tree, neighbor, and interpolation exploration modes
-* Modular codebase for plugging in new models/datasets
 
 ---
 
