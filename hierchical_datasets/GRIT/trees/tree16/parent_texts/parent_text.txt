@@ -1,0 +1,6 @@
+Sample Key: 000281779
+Number of Parents: 2
+Tree: tree16
+Parent Captions:
+  1. Wooden sauna
+  2. Wooden sauna in the middle of nowhere

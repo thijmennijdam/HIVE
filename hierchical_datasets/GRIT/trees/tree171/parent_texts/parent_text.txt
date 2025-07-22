@@ -1,0 +1,6 @@
+Sample Key: 000288949
+Number of Parents: 2
+Tree: tree171
+Parent Captions:
+  1. Comfy room
+  2. Comfy room near the airport

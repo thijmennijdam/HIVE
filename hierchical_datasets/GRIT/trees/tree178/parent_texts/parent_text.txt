@@ -1,0 +1,6 @@
+Sample Key: 000280228
+Number of Parents: 2
+Tree: tree178
+Parent Captions:
+  1. An image
+  2. An image of a snow plow

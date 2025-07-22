@@ -1,0 +1,7 @@
+Sample Key: 000285270
+Number of Parents: 3
+Tree: tree166
+Parent Captions:
+  1. A comic book superhero silhouette
+  2. cape
+  3. A comic book superhero silhouette with cape flying in the wind

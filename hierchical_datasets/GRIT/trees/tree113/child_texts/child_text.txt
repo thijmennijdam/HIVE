@@ -1,0 +1,3 @@
+Sample Key: 000280812
+Child Caption: The best resolution for print is your printer's native resolution.
+Tree: tree113

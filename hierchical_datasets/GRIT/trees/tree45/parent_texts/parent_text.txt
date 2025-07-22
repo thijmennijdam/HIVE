@@ -1,0 +1,7 @@
+Sample Key: 000284189
+Number of Parents: 3
+Tree: tree45
+Parent Captions:
+  1. Fisherman
+  2. a horse-drawn cart
+  3. boats

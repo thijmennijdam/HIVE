@@ -1,0 +1,3 @@
+Synset ID: n01614925
+Synset Name: bald_eagle
+Tree: tree23

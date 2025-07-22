@@ -1,0 +1,6 @@
+Sample Key: 000281602
+Number of Parents: 2
+Tree: tree100
+Parent Captions:
+  1. two students
+  2. a teacher

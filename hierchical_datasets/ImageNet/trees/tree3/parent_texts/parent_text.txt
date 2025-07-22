@@ -1,0 +1,3 @@
+Synset ID: n01484850
+Synset Name: great_white_shark
+Tree: tree3

@@ -1,0 +1,6 @@
+Sample Key: 000286625
+Number of Parents: 2
+Tree: tree17
+Parent Captions:
+  1. a thermometer
+  2. A teacher

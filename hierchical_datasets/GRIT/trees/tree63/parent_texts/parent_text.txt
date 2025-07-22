@@ -1,0 +1,6 @@
+Sample Key: 000284973
+Number of Parents: 2
+Tree: tree63
+Parent Captions:
+  1. a blue sky
+  2. a blue sky with white clouds

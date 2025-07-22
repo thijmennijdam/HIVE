@@ -1,0 +1,6 @@
+Sample Key: 000287149
+Number of Parents: 2
+Tree: tree32
+Parent Captions:
+  1. a shopping trolley
+  2. A girl

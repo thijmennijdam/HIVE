@@ -1,0 +1,7 @@
+Sample Key: 000280901
+Number of Parents: 3
+Tree: tree6
+Parent Captions:
+  1. a blue sky
+  2. the nest
+  3. a pole

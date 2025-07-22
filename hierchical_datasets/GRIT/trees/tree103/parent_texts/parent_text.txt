@@ -1,0 +1,8 @@
+Sample Key: 000288573
+Number of Parents: 4
+Tree: tree103
+Parent Captions:
+  1. the desk
+  2. the personal computer
+  3. Businessman stress
+  4. Businessman stress at the desk by a lot of work

@@ -1,0 +1,3 @@
+Synset ID: n01491361
+Synset Name: tiger_shark
+Tree: tree4

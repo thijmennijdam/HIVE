@@ -1,0 +1,6 @@
+Sample Key: 000282979
+Number of Parents: 2
+Tree: tree174
+Parent Captions:
+  1. African elephants
+  2. a single file

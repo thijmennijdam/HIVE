@@ -1,0 +1,8 @@
+Sample Key: 000285953
+Number of Parents: 4
+Tree: tree55
+Parent Captions:
+  1. the car
+  2. Blake
+  3. snack-size sandwich bags
+  4. snack-size sandwich bags for gloves

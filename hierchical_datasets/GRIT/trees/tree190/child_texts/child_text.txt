@@ -1,0 +1,3 @@
+Sample Key: 000282585
+Child Caption: The average sea surface temperature departure (in degrees °Celsius) over the last four weeks, clearly showing the 'warm tongue'. Image courtesy of Climate Prediction Center, NOAA. Orange colours indicate sea temperatures more than 1°C above average, red colours more than 2°C above average.
+Tree: tree190

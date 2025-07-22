@@ -1,0 +1,3 @@
+Synset ID: n01744401
+Synset Name: rock_python
+Tree: tree63

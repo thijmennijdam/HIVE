@@ -1,0 +1,6 @@
+Sample Key: 000280584
+Number of Parents: 2
+Tree: tree200
+Parent Captions:
+  1. baked wonton chips
+  2. a white plate

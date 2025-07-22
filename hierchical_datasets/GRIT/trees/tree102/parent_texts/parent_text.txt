@@ -1,0 +1,7 @@
+Sample Key: 000280205
+Number of Parents: 3
+Tree: tree102
+Parent Captions:
+  1. persian dates
+  2. a plastic lined box
+  3. persian dates in a plastic lined box

@@ -1,0 +1,8 @@
+Sample Key: 000280142
+Number of Parents: 4
+Tree: tree168
+Parent Captions:
+  1. a two lane road
+  2. sedan
+  3. BMW suv
+  4. a two lane road with mountains in the background

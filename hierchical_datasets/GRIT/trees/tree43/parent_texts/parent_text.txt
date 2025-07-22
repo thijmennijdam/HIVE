@@ -1,0 +1,6 @@
+Sample Key: 000284257
+Number of Parents: 2
+Tree: tree43
+Parent Captions:
+  1. A large poison ivy vine
+  2. A large poison ivy vine growing up a tree

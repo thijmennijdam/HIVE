@@ -1,0 +1,6 @@
+Sample Key: 000285051
+Number of Parents: 2
+Tree: tree195
+Parent Captions:
+  1. a desktop computer
+  2. a mobile phone

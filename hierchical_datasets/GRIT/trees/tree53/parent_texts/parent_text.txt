@@ -1,0 +1,7 @@
+Sample Key: 000285422
+Number of Parents: 3
+Tree: tree53
+Parent Captions:
+  1. Health officers
+  2. poultry
+  3. Health officers in protective clothing

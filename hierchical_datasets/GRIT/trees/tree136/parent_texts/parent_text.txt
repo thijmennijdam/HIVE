@@ -1,0 +1,8 @@
+Sample Key: 000284789
+Number of Parents: 4
+Tree: tree136
+Parent Captions:
+  1. a cyclist
+  2. A lease sign
+  3. a commercial store
+  4. a commercial store in Ottawa

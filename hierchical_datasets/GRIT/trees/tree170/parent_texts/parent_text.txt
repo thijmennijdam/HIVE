@@ -1,0 +1,7 @@
+Sample Key: 000286448
+Number of Parents: 3
+Tree: tree170
+Parent Captions:
+  1. the crowd
+  2. an old barn
+  3. an old barn in Oregon

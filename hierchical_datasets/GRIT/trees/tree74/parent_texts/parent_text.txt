@@ -1,0 +1,6 @@
+Sample Key: 000280299
+Number of Parents: 2
+Tree: tree74
+Parent Captions:
+  1. a child’s car seat
+  2. a child’s car seat without problematic chemicals

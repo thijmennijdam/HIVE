@@ -1,0 +1,7 @@
+Sample Key: 000286700
+Number of Parents: 3
+Tree: tree50
+Parent Captions:
+  1. Ms Palaszczuk
+  2. a press conference
+  3. a press conference in Brisbane, Australia

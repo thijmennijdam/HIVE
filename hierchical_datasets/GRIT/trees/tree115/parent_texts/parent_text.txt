@@ -1,0 +1,6 @@
+Sample Key: 000286167
+Number of Parents: 2
+Tree: tree115
+Parent Captions:
+  1. the sink
+  2. cucumbers

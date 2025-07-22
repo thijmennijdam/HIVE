@@ -1,0 +1,8 @@
+Sample Key: 000287347
+Number of Parents: 4
+Tree: tree90
+Parent Captions:
+  1. Brick wall
+  2. the word
+  3. Brick wall with the word BLINK in allcaps in blue neon sans serif shadow text
+  4. the word BLINK in allcaps in blue neon sans serif shadow text

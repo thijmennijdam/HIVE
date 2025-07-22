@@ -1,0 +1,6 @@
+Sample Key: 000282373
+Number of Parents: 2
+Tree: tree27
+Parent Captions:
+  1. Drugs
+  2. Drugs which were seized by police

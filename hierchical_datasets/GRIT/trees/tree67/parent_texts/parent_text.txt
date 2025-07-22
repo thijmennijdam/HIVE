@@ -1,0 +1,9 @@
+Sample Key: 000289076
+Number of Parents: 5
+Tree: tree67
+Parent Captions:
+  1. blue jeans
+  2. a black vest top
+  3. Outfit
+  4. blue jeans with a black cross print
+  5. a black vest top which she paired with blue jeans with a black cross print

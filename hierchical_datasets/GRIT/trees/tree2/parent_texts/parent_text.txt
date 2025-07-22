@@ -1,0 +1,5 @@
+Sample Key: 000289078
+Number of Parents: 1
+Tree: tree2
+Parent Captions:
+  1. the pair

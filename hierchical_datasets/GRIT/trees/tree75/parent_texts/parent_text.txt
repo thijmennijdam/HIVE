@@ -1,0 +1,5 @@
+Sample Key: 000283435
+Number of Parents: 1
+Tree: tree75
+Parent Captions:
+  1. Color double exposure

@@ -1,0 +1,6 @@
+Sample Key: 000284010
+Number of Parents: 2
+Tree: tree92
+Parent Captions:
+  1. human resource managers
+  2. a job applicant

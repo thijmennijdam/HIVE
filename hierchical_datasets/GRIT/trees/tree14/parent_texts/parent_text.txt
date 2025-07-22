@@ -1,0 +1,6 @@
+Sample Key: 000285891
+Number of Parents: 2
+Tree: tree14
+Parent Captions:
+  1. a Gazebo
+  2. a Gazebo with a Deck

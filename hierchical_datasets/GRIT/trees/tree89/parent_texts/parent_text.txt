@@ -1,0 +1,6 @@
+Sample Key: 000282310
+Number of Parents: 2
+Tree: tree89
+Parent Captions:
+  1. The new greenhouse
+  2. The new greenhouse for growing crops

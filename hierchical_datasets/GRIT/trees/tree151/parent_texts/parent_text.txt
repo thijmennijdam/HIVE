@@ -1,0 +1,6 @@
+Sample Key: 000285839
+Number of Parents: 2
+Tree: tree151
+Parent Captions:
+  1. mango water
+  2. a pitcher

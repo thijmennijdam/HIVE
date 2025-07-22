@@ -1,0 +1,6 @@
+Sample Key: 000284687
+Number of Parents: 2
+Tree: tree128
+Parent Captions:
+  1. a dense gray robe
+  2. a dense gray robe with black and white pointed lines

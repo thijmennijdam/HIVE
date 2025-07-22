@@ -1,0 +1,8 @@
+Sample Key: 000283213
+Number of Parents: 4
+Tree: tree139
+Parent Captions:
+  1. other puppies
+  2. A puppy
+  3. broken front legs
+  4. A puppy with broken front legs after being hit by a car
