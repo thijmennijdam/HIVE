@@ -31,7 +31,7 @@
 
 ## Quick Start
 
-### 0. Install `uv` (if you don’t already have it)
+### 0. Install `uv`
 
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
@@ -44,10 +44,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv
 
 # Activate it
-# Linux/macOS
 source .venv/bin/activate
-# Windows (PowerShell)
-# .venv\Scripts\Activate.ps1
 
 # Install dependencies
 uv sync
@@ -88,7 +85,7 @@ cosine_embeddings.pkl
 horopca_embeddings.pkl
 ```
 
-You can now load your dataset and projections in the dashboard. Forking and adapting the code for custom data types is straightforward (and coding agents can help automate this).
+You can now load your dataset and projections in the dashboard. Forking and adapting the code for custom datasets should be straightforward.
 
 ---
 
