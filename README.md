@@ -50,7 +50,7 @@ source .venv/bin/activate
 uv sync
 
 # Launch
-uv run src/main.py
+python src/main.py
 ```
 
 ---

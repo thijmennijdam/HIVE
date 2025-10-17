@@ -7,6 +7,34 @@ from .projection import _interpolate_hyperbolic
 from .image_utils import _encode_image, _create_content_element
 import json
 
+
+def _compute_hyperbolic_distances(point, all_points, curv=1.0):
+    """
+    Compute hyperbolic distances from a point to all points using Lorentzian metric.
+    
+    Args:
+        point: numpy array of shape (D,) - the reference point
+        all_points: numpy array of shape (N, D) - all points
+        curv: curvature parameter (default 1.0)
+    
+    Returns:
+        numpy array of shape (N,) with hyperbolic distances
+    """
+    # Compute time coordinates for Lorentz model
+    point_time = np.sqrt(1.0 / curv + np.sum(point**2))
+    all_times = np.sqrt(1.0 / curv + np.sum(all_points**2, axis=1))
+    
+    # Compute Lorentzian inner product: <x, y>_L = x·y - x_time * y_time
+    spatial_product = np.dot(all_points, point)
+    lorentzian_inner = spatial_product - point_time * all_times
+    
+    # Hyperbolic distance: d(x,y) = acosh(-<x,y>_L)
+    # Clamp to avoid numerical issues with acosh
+    lorentzian_inner = np.clip(lorentzian_inner, None, -1.0)
+    distances = np.arccosh(-lorentzian_inner)
+    
+    return distances
+
 def _create_hover_text(idx, points=None, meta=None):
     """Create meaningful hover text for a point based on its content."""
     # If we have points data, use the embedding type to show relevant content
@@ -778,7 +806,7 @@ def register_callbacks(app: dash.Dash) -> None:
             selected_idx = sel[:1]
             if data_store is not None:
                 data_np = np.asarray(data_store, dtype=np.float32)
-                dists = np.linalg.norm(data_np - data_np[sel[0]], axis=1)
+                dists = _compute_hyperbolic_distances(data_np[sel[0]], data_np)
                 neighbor_indices = np.argsort(dists)
                 neighbor_indices = neighbor_indices[neighbor_indices != sel[0]][:k_neighbors]
             else:
@@ -1874,7 +1902,7 @@ def register_callbacks(app: dash.Dash) -> None:
                 components.append(html.P("Embedding not available."))
                 return html.Div(components), instructions
             emb = np.asarray(emb_data, dtype=np.float32)
-            dists = np.linalg.norm(emb - emb[sel[0]], axis=1)
+            dists = _compute_hyperbolic_distances(emb[sel[0]], emb)
             neighbors = np.argsort(dists)
             neighbors = neighbors[neighbors != sel[0]][:k_neighbors]
             
@@ -2100,7 +2128,7 @@ def register_callbacks(app: dash.Dash) -> None:
         if mode == "neighbors" and sel and len(sel) == 1:
             if data_store is not None:
                 data_np = np.asarray(data_store, dtype=np.float32)
-                dists = np.linalg.norm(data_np - data_np[sel[0]], axis=1)
+                dists = _compute_hyperbolic_distances(data_np[sel[0]], data_np)
                 neighbor_indices = np.argsort(dists)
                 neighbor_indices = neighbor_indices[neighbor_indices != sel[0]][:k_neighbors]
             else:
@@ -2255,7 +2283,7 @@ def register_callbacks(app: dash.Dash) -> None:
         if mode == "neighbors" and sel and len(sel) == 1:
             if data_store is not None:
                 data_np = np.asarray(data_store, dtype=np.float32)
-                dists = np.linalg.norm(data_np - data_np[sel[0]], axis=1)
+                dists = _compute_hyperbolic_distances(data_np[sel[0]], data_np)
                 neighbor_indices = np.argsort(dists)
                 neighbor_indices = neighbor_indices[neighbor_indices != sel[0]][:k_neighbors]
             else:
